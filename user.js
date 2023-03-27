@@ -30,7 +30,7 @@ function kapil(){
     console.log(c)
     document.getElementById("range_data").innerHTML = c;
 
-    let result = (user_bill_data * c / 100);
+    let result = (user_bill_data + usertip * c / 100);
     let kali =Math.round(result)
     document.getElementById("per_data").innerHTML  = kali;
 
