@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="container">
+           <div class="row head ">
+            <div class="col-12 main mt-5 mx-auto  ">
+                <div class="row main_wave">
+                    <div class="col-8 data_height ">
+                       <p class="time_data" id="time_data">9:45</p>
+                    </div>
+                    <div class="col-1 data_height ">
+                        <i class="bi bi-wifi wifi_data" ></i>
+                    </div>
+                    <div class="col-1 data_height ">
+                        <i class="bi bi-reception-4 wifi_data"></i>
+                    </div>
+                    <div class="col-1 data_height">
+                        <i class="bi bi-battery-half wifi_data"></i>
+                    </div>
+                    <div class="row user_height">
+                        <div class="col-6   data_height">
+                            <i class="bi bi-list wifi_data1"></i>
+                        </div>
+                        <div class="col-6 data_height">
+                            <p class="tipsy">Tipsy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 bill_total"><p>Enter Bill Total</p></div>
+                    <div class="col-12 ">
+                        <input type="text" name="" id="user_bill" class="bill_total_value" placeholder="₹" oninput="kapil()">
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-12 bill_total"><p>Choose Tip</p></div>
+                    <div class="col-12 ">
+                        <div class="row main_chosetip">
+                            <div class="col-4 choose_tip_data"><a href="" id="user10"> 10%</a></div>
+                            <div class="col-4 choose_tip_data"><a href="" id="user11">15%</a></div>
+                            <div class="col-4 choose_tip_data"><a href="" id="user12">20%</a></div>
+                            <div class="col-4 choose_tip_data"><a href="" id="user13">30%</a></div>
+                            <div class="col-4 choose_tip_data"><a href="" id="user14">20%</a></div>
+                            <div class="col-8 "><input type="text" name="" id="user15" class="box_border" placeholder="Custom Amount" oninput="kapil()"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-12 bill_total"><p>Split</p></div>
+                    <div class="col-12 ">
+                       <input type="range" id="user_range" oninput="kapil()" min="10"> <span id="range_data"></span>
+                        
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-12 footer_part">
+                        <div class="row">
+                            <div class="col-12 text-center total_per">Total Per Person</div>
+                            <div class="col-12 person_text text-center"> <span>₹</span> <span id="per_data">45.05</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 text-center bill_tip">Bill</div>
+                            <div class="col-6 text-center bill_tip">Tip</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 text-center bill_tip1"><span>₹</span ><span id="per_data_one">34.54</span></div>
+                            <div class="col-6 text-center bill_tip1"><span>₹</span><span id="per_data_two">7.00</span></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+           </div>
+         
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="user.js"></script>
+  </body>
+</html>

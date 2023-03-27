@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.head{
+    border: 0px solid red;
+    
+}
+.main{
+    width: 480px;
+    height: 960px;
+    border: 20px groove black;
+    border-radius: 50px;
+}
+.main_wave{
+    width: 108%;
+    background-image: url(wave.svg);
+    background-repeat: repeat-x;
+    height: 200px;
+    position: relative;
+    z-index: -1;
+    border: 0px solid red;
+}
+.wifi_data{
+    font-size: 30px;
+
+}
+.wifi_data1{
+    font-size: 35px;
+}
+.time_data{
+    font-size: 25px;
+    padding: 5px 0px 0px 3px;
+
+}
+.data_height{
+    height: 70px;
+}
+.tipsy{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    word-spacing: 45px;
+
+}
+.user_height{
+    margin-top: -70px;
+}
+.bill_total p{
+    font-size: 30px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    color: rgb(162, 165, 164);
+}
+.bill_total_value{
+    width: 150px;
+    color: rgb(12, 192, 117);
+    border: 0px solid red;
+    margin-left: 8rem;
+    padding: 10px;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(162, 165, 164);
+    font-weight: bold;
+   
+}
+input{
+    border: none;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.choose_tip_data{
+    width: 60px;
+    height: 50px;
+    border: 0px solid red;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.choose_tip_data a{
+    color: rgb(23,165,101);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.choose_tip_data:hover{
+    color: white;
+    background-color: rgb(23,165,101);
+}
+.choose_tip_data a:hover{
+    color: white;
+}
+.main_chosetip{
+    width: 80%;
+    border: 0px solid red;
+    margin: auto;
+}
+.box_border{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+    color: rgb(23,165,101);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.footer_part{
+    border: 0px solid red;
+    width: 80%;
+    margin: auto;
+    height: 261px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(206,245,230);
+    position: relative;
+    z-index: -1;
+}
+.total_per{
+    color: rgb(102, 103, 103);
+    font-size: 30px;
+    margin-top: 10px;
+}
+.person_text{
+color: rgb(15,129,82);
+font-size: 50px;
+}
+.bill_tip{
+    color: rgb(102, 103, 103);
+    font-size: 30px;
+}
+.bill_tip1{
+    color: rgb(15,129,82);
+    font-size: 34px;
+}
